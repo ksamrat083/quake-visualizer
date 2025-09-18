@@ -1,0 +1,34 @@
+/* Import Leaflet’s required CSS (must come first) */
+@import "leaflet/dist/leaflet.css";
+
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure root elements fill full height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Map container fallback */
+.map-container {
+  width: 100%;
+  height: 600px;
+  border-radius: 0.75rem; /* same as Tailwind rounded-xl */
+  overflow: hidden;
+}
+
+/* Leaflet popup tweaks */
+.leaflet-popup-content-wrapper {
+  border-radius: 0.5rem;
+  font-size: 0.875rem; /* text-sm */
+}
+
+.leaflet-popup-content {
+  margin: 0.5rem;
+}
