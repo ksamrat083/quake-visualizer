@@ -11,5 +11,3 @@ Interactive map showing recent earthquakes from the USGS `all_day` feed.
 ## How to deploy
 - Push to GitHub and connect to Vercel or Netlify. Build command: `npm run build`. Publish directory: `dist`.
 
-## ChatGPT conversation
-- Add your ChatGPT conversation share link here so reviewers can see your approach.
